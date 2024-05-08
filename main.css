@@ -1,0 +1,116 @@
+/* Botão */
+button {
+    position: absolute; /* Define a posição absoluta */
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 252px;
+    height: 72px;
+    flex-shrink: 0;
+    border: 1px solid var(--wirelinha, #070707);
+    background: #0672CB;
+    box-shadow: -8px 8px 4px 0px rgba(0, 0, 0, 0.25);
+    color: var(--Primary-Base-White, #FFF);
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#login {
+    position: absolute;
+    top: 25%;
+    left:40%;
+    transform: translate(-50%, -50%);
+    width: 244px;
+    height: 64px;
+    color: #000;
+    font-family:"Roboto", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#username {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 244px;
+    height: 64px;
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+#password {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 244px;
+    height: 64px;
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#usernameText {
+    position: absolute;
+    top: 42.5%;
+    left: 44%;
+    transform: translate(-50%, -50%);
+    width: 244px;
+    height: 64px;
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+#textPassword {
+    position: absolute;
+    top: 52.5%;
+    left: 44%;
+    transform: translate(-50%, -50%);
+    width: 244px;
+    height: 64px;
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+#background-1 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: #0672CB;
+}
+
+#background-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 70%;
+    background: #ffffff;
+    border-radius: 0px;
+    box-shadow: -8px 8px 4px 0px rgba(0, 0, 0, 0.25);
+}

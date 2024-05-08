@@ -4,25 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dell Aware</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <div id="header-nav">
-        <header id="header-login">
-            <img alt='Logo da Dell' src="assets/icons/logo_da_dell">
-        </header>
+    <div id= "background-1">
+        <div id="header-nav">
+            <header id="header-login">
+                <img alt='Logo da Dell' src="assets/icons/logo_da_dell.png" width="7%" height="7%">
+            </header></div>
     </div>
+    <div id= "background-2"></div>
     <div id="login-container">
-        <h2>Login</h2>
+        <h2 id="login">Login</h2>
         <form id='login-form'>
             <div id="form-group">
-                <label for="username">username</label>
+                <label for="username" id="usernameText">Username</label>
                 <input type="text" id="username" name='username' required>
             </div>
             <div id="form-group">
-                <label for="password">password</label>
+                <label for="password" id="textPassword">Password</label>
                 <input type="password" id="password" name='password' required>
             </div>
-            <button type="submit">Entrar</button>
+            <button type="submit">Entrar <link rel="stylesheet" href="main.css"></button>
         </form>
     </div>
 </body>
