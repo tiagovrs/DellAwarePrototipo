@@ -6,6 +6,9 @@ body {
     background-color: #F5F6F7;
     margin: 5px;
     padding: 5px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .header-login {
@@ -22,7 +25,7 @@ body {
 .search-container {
     width: 100%;
     height: 30px;
-    position: fixed;
+    position: absolute;
     top: 75px;
 }
 
@@ -47,16 +50,53 @@ body {
 }
 
 .column {
-    background-color: #f4f4f4;
-    border-radius: 5px;
+    background-color: #FFF;
     padding: 10px;
     width: 30%;
+    height: 500px;
+    box-shadow: -8px 8px 4px 0px rgba(0, 0, 0, 0.25);
+    border: 0.5px solid #070707;
 }
 
 .task {
-    background-color: #fff;
+    background-color: #1282D6;
     border: 1px solid #ccc;
-    border-radius: 3px;
+    margin-top: 5px;
     margin-bottom: 10px;
+    margin-left: 10px;
     padding: 10px;
+    height: 80px;
+    width: 90%;
+    box-shadow: -8px 8px 4px 0px rgba(0, 0, 0, 0.25);
+    border: 0.5px solid #070707;
+}
+
+.footer {
+    background-color: #E1E1E1;
+    color: #6E6E6E;
+    padding: 3px;
+    margin-top: auto;
+}
+
+.footer ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.footer ul li {
+    margin-right: 20px;
+}
+
+.footer ul li:last-child {
+    margin-right: 0; 
+}
+
+.logo, .home, .notif{
+    width: 35px;
+    height: 35px;
+}
+
+.home-notif-container{
+    top
 }
